@@ -1,0 +1,89 @@
+
+*{
+    
+    padding: 0;
+    margin: 0 auto;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* header */
+
+header{
+    background: #98B1F6;
+    height: 70px;
+}
+
+.logo{
+    text-align: center;
+    padding-block: 15px;
+}
+
+
+
+/* main */
+
+main{
+    width: 100%;
+    height: 90vh;
+    position: relative;
+}
+
+.con_logo{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.content{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.content input{
+    width: 40vw;
+    height: 50px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+
+
+.content button{
+    position: absolute;
+    right: 50%;
+    transform: translate(50%, -65%);
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    background: #5F83B9;
+    border: none;
+    color: white;
+    font-family: 'Inika', serif;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.dropzone {
+    /* position: absolute;
+    top: 100px; */
+    background: white;
+    border-radius: 5px;
+    border: 2px dashed rgb(0, 135, 247);
+    border-image: none;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dz-remove{
+    background: red;
+    width: 50px;
+    border-radius: 25px;
+    color: white;
+    margin-top: 10px;
+}
